@@ -5,4 +5,6 @@ import tailwindcss from 'tailwindcss'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: 'https://github.com/yuhuuu24/prak-7-tekweb.git', 
+  publicDir: false,
 })
